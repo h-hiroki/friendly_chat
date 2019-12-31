@@ -26,6 +26,7 @@ class ChatScreenState extends State<ChatScreen> {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(title: new Text('Friendlychat'),),
+      body: _buildTextComposer(),
     );
   }
 
